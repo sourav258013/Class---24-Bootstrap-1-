@@ -1,0 +1,45 @@
+
+/* css common start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* css common end*/
+
+.footer{
+    background-color: #ccc;
+}
+
+.footer .box-4 a{
+    color: #fff;
+    }
+    
+    .footer .box-4 .lnk{
+        margin-top: 20px;
+        }
+        
+.footer .box-4 a span{      
+    padding: 10px;
+    background-color: skyblue;
+    margin-left: 15px;
+    border-radius: 50%;
+}
